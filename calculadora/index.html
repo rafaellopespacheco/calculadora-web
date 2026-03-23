@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=error" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="escuro">
+    <div>
+      <header>
+        <h2>Modo claro</h2>
+        <label class="switch">
+          <input type="checkbox" id="aparencia">
+          <span class="thumb"></span>
+        </label>
+      </header>
+    </div>
+    <main>
+      <textarea name="visor" id="visor" class="visor" disabled>0</textarea>
+      <div class="teclado">
+        <button type="button" id="C" data-value="CE" data-type="action">CE</button>
+        <button type="button" id="7" data-value="%" data-type="operator">%</button>
+        <button type="button" id="7" data-value="/" data-type="operator">&#xf7;</button>
+        <button type="button" id="CE" data-value="backspace" data-type="action">&#x232B;</button>
+
+        <button type="button" id="7" data-value="7" data-type="number">7</button>
+        <button type="button" id="8" data-value="8" data-type="number">8</button>
+        <button type="button" id="9" data-value="9" data-type="number">9</button>
+        <button type="button" id="vezes" data-value="x" data-type="operator">x</button>
+
+        <button type="button" id="4" data-value="4" data-type="number">4</button>
+        <button type="button" id="5" data-value="5" data-type="number">5</button>
+        <button type="button" id="6" data-value="6" data-type="number">6</button>
+        <button type="button" id="menos" data-value="-" data-type="operator">-</button>
+
+        <button type="button" id="1" data-value="1" data-type="number">1</button>
+        <button type="button" id="2" data-value="2" data-type="number">2</button>
+        <button type="button" id="3" data-value="3" data-type="number">3</button>
+        <button type="button" id="mais" data-value="+" data-type="operator">+</button>
+
+        <button type="button" id="0" data-value="0" data-type="number">0</button>
+        <button type="button" id="virgula" data-value="," data-type="number">,</button>
+        <button type="button" id="igual" data-value="=" data-type="action">=</button>
+      </div>
+    </main>
+    <footer><p>Desenvolvido por <a href="https://rafaellopespacheco.netlify.app/" target="_blank">Rafael Lopes</a>.</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
