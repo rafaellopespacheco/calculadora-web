@@ -1,8 +1,8 @@
-# 🧮 Calculadora
+# Calculadora
 
-Uma calculadora funcional desenvolvida com HTML, CSS e JavaScript puro — construída do zero como projeto de aprendizado prático.
+Uma calculadora funcional desenvolvida com HTML, CSS e JavaScript puro construída do zero como projeto de aprendizado prático.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Operações básicas: adição, subtração, multiplicação e divisão
 - Suporte a porcentagem
@@ -12,7 +12,7 @@ Uma calculadora funcional desenvolvida com HTML, CSS e JavaScript puro — const
 - Suporte a teclado físico
 - Backspace e limpeza total (CE)
 
-## ⌨️ Atalhos de Teclado
+## Atalhos de Teclado
 
 | Tecla | Ação |
 |---|---|
@@ -22,13 +22,13 @@ Uma calculadora funcional desenvolvida com HTML, CSS e JavaScript puro — const
 | `Backspace` | Apagar último dígito |
 | `Escape` | Limpar tudo (CE) |
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - HTML5
 - CSS3 (variáveis CSS, animações, grid)
 - JavaScript puro (sem frameworks)
 
-## 💡 Conceitos Aplicados
+## Conceitos Aplicados
 
 - Event delegation
 - Atributos `data-*` e `dataset`
@@ -38,6 +38,6 @@ Uma calculadora funcional desenvolvida com HTML, CSS e JavaScript puro — const
 - `createElement` e manipulação do DOM
 - `keydown` para suporte ao teclado
 
-## 🚀 Como usar
+## Como usar
 
 Basta abrir o `index.html` no navegador — nenhuma dependência ou instalação necessária.
