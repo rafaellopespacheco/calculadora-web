@@ -84,10 +84,10 @@ function processarEntrada(valorClicado, tipo) {
             numeroAtual = null;
             visor.value = '0';
          } else if (valorClicado === '=') {
-            if (numeroAtual === '') {}
             numeroAtual = Number(visor.value);
             visor.value = calcular(numeroAnterior, numeroAtual, operador);
-            numeroAnterior = Number(visor.value);
+            numeroAnterior = null;
+            operador = null;
          }
       }
    }
